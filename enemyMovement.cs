@@ -9,6 +9,8 @@ public class enemyMove : MonoBehaviour {
     public int flyingTime = 10.0f;
     public int flyEndTime = 13.0f;
 
+    public Rigidbody _rigidbody;
+
     
   
   void Start()

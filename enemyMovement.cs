@@ -3,7 +3,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine:
 
-// Create body:
 public class enemyMove : MonoBehaviour {
   // variables: 
       

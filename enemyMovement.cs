@@ -15,14 +15,16 @@ public class enemyMove : MonoBehaviour {
   
   void Start()
   {
-    
-
+     _rigidbody = GetComponent<Rigidbody>();
+    flyingTime = 11.0f;
   }
 
   void Update()
   {
-
-
+    
+    
+       _rigidbody = GetRigidbody(); // Change this line its uses AddForce '_rigidbody.AddForce(0, 0, 9);
+    }
   }
   
   void Animate()

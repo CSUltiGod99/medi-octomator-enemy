@@ -14,11 +14,27 @@ public class octomaSplash : MonoBehaviour
     
     void Start()
     {
-
-
+        float pacidMaxCount = 4.0f;
+        octomator_1 = GetComponent<octomator_1>();
+        octomator_1.AddComponent<ParticleSystem>();
     }
 
     void Update()
     {
-      _acid = Count
+        _acid = Count
+        if(Input.GetMouseButtonDown(0))
+        {
+            _acid = k
+        }
 
+        if()
+        {
+        
+
+        }
+
+
+
+    
+
+}
